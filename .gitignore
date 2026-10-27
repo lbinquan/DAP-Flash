@@ -1,0 +1,28 @@
+# 编译输出
+# [Bb]in/
+[Oo]bj/
+
+# Visual Studio / Rider 用户文件
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# NuGet 还原的包（用 nuget restore / VS 自动还原）
+packages/
+*.nupkg
+
+# ARM CMSIS pack 文件（用于生成 yaml，体积较大且受各自许可约束）
+*.pack
+
+# 可选：内置的 probe-rs 可执行文件体积较大，按需自行下载到 tools/ 目录
+# tools/
+
+# 临时文件
+*.tmp
+*.log
+Thumbs.db
